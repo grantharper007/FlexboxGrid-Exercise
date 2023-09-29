@@ -59,3 +59,22 @@ section:not(#three) {
   }
   
   /* START BELOW THIS LINE */
+
+  #one {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #two {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  #three {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-auto-rows: 100px;
+  }
